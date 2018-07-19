@@ -69,7 +69,19 @@
 # 	end
 # end
 
+# Author refactor
 while 'Spike' > 'Angel'
+	input = gets.chomp
+	puts input
+	if input == 'bye'
+		break
+	end
+end
+
+puts 'Come again soon!'
+
+# Author refactor
+while true
 	input = gets.chomp
 	puts input
 	if input == 'bye'
