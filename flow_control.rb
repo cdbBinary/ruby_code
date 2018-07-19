@@ -17,6 +17,28 @@
 # 	puts 'I really have to go, sorry!'
 # end
 
+# Author branching refactor
+puts 'Hello, what\'s your name?'
+name = gets.chomp
+puts 'Hello, ' + name + '.'
+
+# if name == 'Chris'
+# 	puts 'What a lovely name!'
+# else
+# 	if name == 'Katy'
+# 		puts 'What a lovely name!'
+# 	end
+# end
+
+lovely = 'What a lovely name!'
+
+if name == 'Chris'
+	puts lovely
+else name == 'Katy'
+	puts lovely
+end
+
+
 # *****************************************************
 # puts 'Hello, and welcome to seventh grade English.'
 # puts 'My name is Mrs. Gabbard. And your name is....?'
