@@ -18,9 +18,9 @@
 # end
 
 # Author branching refactor
-puts 'Hello, what\'s your name?'
-name = gets.chomp
-puts 'Hello, ' + name + '.'
+# puts 'Hello, what\'s your name?'
+# name = gets.chomp
+# puts 'Hello, ' + name + '.'
 
 # if name == 'Chris'
 # 	puts 'What a lovely name!'
@@ -38,9 +38,9 @@ puts 'Hello, ' + name + '.'
 # 	puts lovely
 # end
 
-if name == 'Chris' || if name == 'Katy'
-	puts 'What a lovely name!'
-end
+# if name == 'Chris' || if name == 'Katy'
+# 	puts 'What a lovely name!'
+# end
 
 # puts 'Hello, and welcome to seventh grade English.'
 # puts 'My name is Mrs. Gabbard. And your name is....?'
@@ -138,9 +138,10 @@ end
 
 while true
 	puts 'What would you like to ask C to do?'
+	puts 'If you don\'t want C to do anything say, stop.'
 	request = gets.chomp
 
-	puts 'You say, "C, please' + request + '"'
+	puts 'You say, "C, please ' + request + '"'
 
 	puts 'C\'s response:'
 	puts '"C ' + request + '."'
