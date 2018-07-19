@@ -30,16 +30,18 @@ puts 'Hello, ' + name + '.'
 # 	end
 # end
 
-lovely = 'What a lovely name!'
+# lovely = 'What a lovely name!'
 
-if name == 'Chris'
-	puts lovely
-else name == 'Katy'
-	puts lovely
+# if name == 'Chris'
+# 	puts lovely
+# else name == 'Katy'
+# 	puts lovely
+# end
+
+if name == 'Chris' || if name == 'Katy'
+	puts 'What a lovely name!'
 end
 
-
-# *****************************************************
 # puts 'Hello, and welcome to seventh grade English.'
 # puts 'My name is Mrs. Gabbard. And your name is....?'
 # name = gets.chomp
@@ -58,6 +60,7 @@ end
 # 	end
 # end
 
+# ****************************
 # While Looping
 # puts 'Hello?'
 # input = input 
@@ -92,23 +95,63 @@ end
 # end
 
 # Author refactor
-while 'Spike' > 'Angel'
-	input = gets.chomp
-	puts input
-	if input == 'bye'
-		break
-	end
-end
+# while 'Spike' > 'Angel'
+# 	input = gets.chomp
+# 	puts input
+# 	if input == 'bye'
+# 		break
+# 	end
+# end
 
-puts 'Come again soon!'
+# puts 'Come again soon!'
 
 # Author refactor
+# while true
+# 	input = gets.chomp
+# 	puts input
+# 	if input == 'bye'
+# 		break
+# 	end
+# end
+
+# puts 'Come again soon!'
+
+# **********************************
+# && and - || or rules
+# i_am_chris = true
+# i_am_purple = false
+# i_like_beer = true
+# i_eat_rocks = false
+
+# puts i_am_chris && i_like_beer
+# puts i_like_beer && i_eat_rocks
+# puts i_am_purple && i_like_beer
+# puts i_am_purple && i_eat_rocks
+# puts
+# puts i_am_chris || i_like_beer
+# puts i_like_beer || i_eat_rocks
+# puts i_am_purple || i_like_beer
+# puts i_am_purple || i_eat_rocks
+# puts
+# puts !i_am_purple
+# puts !i_am_chris
+
 while true
-	input = gets.chomp
-	puts input
-	if input == 'bye'
+	puts 'What would you like to ask C to do?'
+	request = gets.chomp
+
+	puts 'You say, "C, please' + request + '"'
+
+	puts 'C\'s response:'
+	puts '"C ' + request + '."'
+	puts '"Papa ' + request + ', too."'
+	puts '"Mama ' + request + ', too."'
+	puts '"Ruby ' + request + ', too."'
+	puts '"Nono ' + request + ', too."'
+	puts '"Emma ' + request + ', too."'
+	puts
+
+	if request == 'stop'
 		break
 	end
 end
-
-puts 'Come again soon!'
