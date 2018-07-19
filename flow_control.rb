@@ -48,13 +48,33 @@
 # puts 'Come again soon!'
 
 # Refactored while loop
-puts 'Whats up?'
-while true
+# cdb.Binary
+# puts 'Whats up?'
+# while true
+# 	input = gets.chomp
+# 	puts input
+# 	if input == 'bye' 
+# 		puts 'Come again soon!'
+# 		exit
+# 	end
+# end
+
+# cdb.Binary
+# while true
+# 	input = gets.chomp
+# 	puts input
+# 	if input == 'bye' 
+# 		puts 'Come again soon!'
+# 		break
+# 	end
+# end
+
+while 'Spike' > 'Angel'
 	input = gets.chomp
 	puts input
-	if input == 'bye' 
-		puts 'Come again soon!'
-		exit
+	if input == 'bye'
+		break
 	end
 end
 
+puts 'Come again soon!'
