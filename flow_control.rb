@@ -17,20 +17,44 @@
 # 	puts 'I really have to go, sorry!'
 # end
 
-puts 'Hello, and welcome to seventh grade English.'
-puts 'My name is Mrs. Gabbard. And your name is....?'
-name = gets.chomp
+# *****************************************************
+# puts 'Hello, and welcome to seventh grade English.'
+# puts 'My name is Mrs. Gabbard. And your name is....?'
+# name = gets.chomp
 
-if name == name.capitalize
-	puts 'Please take a seat, ' + name + '.'
-else
-	puts name + '? You mean ' + name.capitalize + ', right?'
-	puts 'Don\'t you even know how to spell your name??'
-	reply = gets.chomp
+# if name == name.capitalize
+# 	puts 'Please take a seat, ' + name + '.'
+# else
+# 	puts name + '? You mean ' + name.capitalize + ', right?'
+# 	puts 'Don\'t you even know how to spell your name??'
+# 	reply = gets.chomp
 
-	if reply.downcase == 'yes'
-		puts 'Hmmph! Well, sit down!'
-	else
-		puts 'GET OUT!!'
+# 	if reply.downcase == 'yes'
+# 		puts 'Hmmph! Well, sit down!'
+# 	else
+# 		puts 'GET OUT!!'
+# 	end
+# end
+
+# While Looping
+# puts 'Hello?'
+# input = input 
+
+# while input != 'bye'
+# 	puts input
+# 	input = gets.chomp
+# end
+
+# puts 'Come again soon!'
+
+# Refactored while loop
+puts 'Whats up?'
+while true
+	input = gets.chomp
+	puts input
+	if input == 'bye' 
+		puts 'Come again soon!'
+		exit
 	end
 end
+
