@@ -1,8 +1,4 @@
-# puts 'Please enter 1 to read the lyrics 
-# 			of the song "99 Bottles of Beer on the Wall."'
 
-# selection = gets.chomp
-# one = selection.to_i
 number = 100
 	
 while number > 0 do
