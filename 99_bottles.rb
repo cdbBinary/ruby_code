@@ -3,16 +3,16 @@
 
 # selection = gets.chomp
 # one = selection.to_i
-number = 99
+number = 100
 
 # if one == 1
 	
-while number < 100 do
-
-	number += 1
+while number > 99 do
 
 	puts "#{number} bottles of beer on the wall, 99 bottles of beer.
 				Take one down and pass it around, 98 bottles of beer on the wall."
+
+	nummber = number -= 1
 
 	if number == 1
 		puts "1 bottle of beer on the wall, 1 bottle of beer.
