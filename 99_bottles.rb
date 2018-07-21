@@ -7,7 +7,7 @@ while number > 0 do
 	
 	less_one = number - 1
 
-	puts "#{number} bottles of beer on the wall, #{number} bottles of beer. Take one down and pass it around, #{less_one} bottles of beer on the wall."
+	puts "#{number} bottles of beer on the wall, \n#{number} bottles of beer. \nTake one down and pass it around, \n#{less_one} bottles of beer on the wall."
 	puts ' '
 
 	if less_one == 1
