@@ -60,62 +60,6 @@
 # 	end
 # end
 
-# ****************************
-# While Looping
-# puts 'Hello?'
-# input = input 
-
-# while input != 'bye'
-# 	puts input
-# 	input = gets.chomp
-# end
-
-# puts 'Come again soon!'
-
-# Refactored while loop
-# cdb.Binary
-# puts 'Whats up?'
-# while true
-# 	input = gets.chomp
-# 	puts input
-# 	if input == 'bye' 
-# 		puts 'Come again soon!'
-# 		exit
-# 	end
-# end
-
-# cdb.Binary
-# while true
-# 	input = gets.chomp
-# 	puts input
-# 	if input == 'bye' 
-# 		puts 'Come again soon!'
-# 		break
-# 	end
-# end
-
-# Author refactor
-# while 'Spike' > 'Angel'
-# 	input = gets.chomp
-# 	puts input
-# 	if input == 'bye'
-# 		break
-# 	end
-# end
-
-# puts 'Come again soon!'
-
-# Author refactor
-# while true
-# 	input = gets.chomp
-# 	puts input
-# 	if input == 'bye'
-# 		break
-# 	end
-# end
-
-# puts 'Come again soon!'
-
 # **********************************
 # && and - || or rules
 # i_am_chris = true
@@ -135,24 +79,3 @@
 # puts
 # puts !i_am_purple
 # puts !i_am_chris
-
-while true
-	puts 'What would you like to ask C to do?'
-	puts 'If you don\'t want C to do anything say, stop.'
-	request = gets.chomp
-
-	puts 'You say, "C, please ' + request + '"'
-
-	puts 'C\'s response:'
-	puts '"C ' + request + '."'
-	puts '"Papa ' + request + ', too."'
-	puts '"Mama ' + request + ', too."'
-	puts '"Ruby ' + request + ', too."'
-	puts '"Nono ' + request + ', too."'
-	puts '"Emma ' + request + ', too."'
-	puts
-
-	if request == 'stop'
-		break
-	end
-end
