@@ -142,9 +142,7 @@ type = 'nil'
 while type != ''
 	puts 'Type a word: '
 	word = gets.chomp
-	exit false if word.empty?
 	words.push word.to_s
+	exit false if word.empty?
+	puts words.sort
 end
-
-puts words
-puts words.sort
