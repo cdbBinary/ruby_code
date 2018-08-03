@@ -146,3 +146,7 @@ while type != ''
 	exit false if word.empty?
 	puts words.sort
 end
+
+# Goal:
+# Print out list of words after
+# pressing enter with an empty line.
